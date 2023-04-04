@@ -2,10 +2,26 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: red;
+html {
+    font-size: 13px;
 }
 
-main {
-    background-color: yellow;
+body {
+    background-color: #22252c;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
 }
